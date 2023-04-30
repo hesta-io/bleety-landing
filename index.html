@@ -1,34 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bleety</title>
 
-    <style>
-      body {
-        margin: 0;
-      }
-      .im {
-        /* width: 100%;
-        height: 100vh; */
-        flex-grow: 1;
-      }
-      .container {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
-    <style></style>
-  </head>
-  <body>
-    <div class="container">
-      <img class="im" src="./assets/img/black.svg" />
-      <img class="im" src="./assets/img/electronic.svg" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Bleety</title>
+
+  <link rel="stylesheet" href="/assets/styles/style.css">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="bleety">
+    <div class="max-w">
+      <section class="bleety__header">
+        <div class="bleety__header-logo">
+          <img src="/assets/images/logo.png" alt="bleety logo">
+        </div>
+        <ul class="bleety__header-socials">
+          <li>
+            <a href="#" class="bleety__header-social-items">
+              <img src="/assets/images/icons/google.png" alt="google icon">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="bleety__header-social-items">
+              <img src="/assets/images/icons/facebook.png" alt="facebook icon">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="bleety__container">
+        <div class="bleety__background-container">
+          <img src="/assets/images/sketch.png" alt="body sketch">
+        </div>
+        <div class="bleety__content">
+          <h1>welcome to bleety</h1>
+          <p>Get access to entertainment through our app "Bleety" by downloading it now.</p>
+          <div class="bleety__download-container">
+            <a href="#" class="bleety__download-btn android">
+              <div class="bleety__download-img">
+                <img src="/assets/images/icons/playstore.png" alt="android icon">
+              </div>
+              <div class="bleety__download-texts">
+                <span>available on</span>
+                <p>Google play</p>
+              </div>
+            </a>
+            <a href="#" class="bleety__download-btn android">
+              <div class="bleety__download-img">
+                <img src="/assets/images/icons/apple-logo.png" alt="apple icon">
+              </div>
+              <div class="bleety__download-texts">
+                <span>available on</span>
+                <p>App store</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="bleety__footer">
+        info@bleety.at
+      </section>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
