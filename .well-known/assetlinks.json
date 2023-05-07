@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.hesta.ticketing_platform",
+      "sha256_cert_fingerprints": [
+        "C9:26:EE:6E:E8:36:37:28:99:C2:90:A9:42:28:9E:3B:8C:D3:DE:35:02:8B:3F:24:EC:3A:71:59:12:99:0A:B6",
+        "38:4D:84:7A:89:C8:58:5D:B7:2E:E4:E0:BF:4E:19:7E:65:51:EC:DE:34:83:5B:B8:37:7C:1A:A9:90:D8:83:0E"
+      ]
+    }
+  }
+]
