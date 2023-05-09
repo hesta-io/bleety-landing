@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "8CY77RC42Y.io.hesta.ticketing-platform",
+        "paths": [
+          "/*",
+          "*"
+        ]
+      }
+    ]
+  }
+}
